@@ -11,10 +11,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Landing />} />
-          <Route path='/room' element={<Room />} />
         </Routes>
       </BrowserRouter>
-      <h1>Main App page</h1>
     </>
   );
 }
